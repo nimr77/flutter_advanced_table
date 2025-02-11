@@ -42,7 +42,8 @@ This isn't your grandma's table (unless your grandma is a seriously cool Flutter
     import 'package:advanced_table_widget/advanced_table_widget.dart'; // Or your package name
 ```
 
-1.  **Start building awesome tables!**
+3.  **Start building awesome tables!**
+
 
 ## Usage
 
