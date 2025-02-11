@@ -35,13 +35,14 @@ This isn't your grandma's table (unless your grandma is a seriously cool Flutter
       advanced_table_widget: ^your_package_version  # Replace with the actual version!
     ```
    (Or whatever you decide to name your package - I recommend something *slightly* more specific than `your_package_name` 😉).
+
 2.  **Import it:**
 
-    ```dart
+```dart
     import 'package:advanced_table_widget/advanced_table_widget.dart'; // Or your package name
-    ```
+```
 
-3.  **Start building awesome tables!**
+1.  **Start building awesome tables!**
 
 ## Usage
 
