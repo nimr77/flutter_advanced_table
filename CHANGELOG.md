@@ -1,3 +1,6 @@
+## 1.0.2
+* **Updated:**  Updated the package description.
+
 ## 1.0.0
 
 * **Initial Release!**  The Advanced Table Widget for Flutter is now available!
