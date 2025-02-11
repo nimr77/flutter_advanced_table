@@ -1,6 +1,6 @@
 # Advanced Table Widget for Flutter 🚀📊
 
-[![pub.dev](https://img.shields.io/pub/v/your_package_name.svg)](https://pub.dev/packages/flutter_advanced_table) <!-- Replace your_package_name -->
+[![pub.dev](https://img.shields.io/pub/v/your_package_name.svg)](https://pub.dev/packages/flutter_advanced_table) 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-24292e.svg?style=flat&logo=github)](https://github.com/nimr77/flutter_advanced_table)
 
 
@@ -30,11 +30,9 @@ This isn't your grandma's table (unless your grandma is a seriously cool Flutter
 
 1.  **Add it to your `pubspec.yaml`:**
 
-    ```yaml
-    dependencies:
-      advanced_table_widget: ^your_package_version  # Replace with the actual version!
     ```
-   (Or whatever you decide to name your package - I recommend something *slightly* more specific than `your_package_name` 😉).
+        flutter pub add flutter_advanced_table
+    ```
 
 2.  **Import it:**
 
