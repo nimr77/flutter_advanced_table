@@ -109,31 +109,32 @@ class AdvancedTableWidget extends StatelessWidget {
 
   /// Creates an [AdvancedTableWidget] instance.
   /// All the parameters are explained above.  The `required` keyword indicates mandatory parameters.
-  const AdvancedTableWidget(
-      {super.key,
-      required this.headerBuilder,
-      required this.rowElementsBuilder,
-      required this.items,
-      required this.isLoadingAll,
-      this.isLoadingMore,
-      this.onEmptyState,
-      this.headerDecoration,
-      this.innerHeaderPadding,
-      required this.fullLoadingPlaceHolder,
-      this.loadingMorePlaceHolder,
-      this.elementsPadding,
-      this.rowElementsDecoration,
-      this.innerRowElementsPadding,
-      this.headerTextStyle,
-      this.outterRowsPadding,
-      this.rowDecorationBuilder,
-      this.outterHeaderPadding,
-      required this.headerItems,
-      this.actions,
-      this.actionBuilder,
-      this.addSpacerToActions = true, // Default value
-      this.onRowTap,
-      this.rowBuilder});
+  const AdvancedTableWidget({
+    super.key,
+    required this.headerBuilder,
+    required this.rowElementsBuilder,
+    required this.items,
+    required this.isLoadingAll,
+    this.isLoadingMore,
+    this.onEmptyState,
+    this.headerDecoration,
+    this.innerHeaderPadding,
+    required this.fullLoadingPlaceHolder,
+    this.loadingMorePlaceHolder,
+    this.elementsPadding,
+    this.rowElementsDecoration,
+    this.innerRowElementsPadding,
+    this.headerTextStyle,
+    this.outterRowsPadding,
+    this.rowDecorationBuilder,
+    this.outterHeaderPadding,
+    required this.headerItems,
+    this.actions,
+    this.actionBuilder,
+    this.addSpacerToActions = true, // Default value
+    this.onRowTap,
+    this.rowBuilder,
+  });
 
   @override
   Widget build(BuildContext context) {
