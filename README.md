@@ -1,6 +1,8 @@
 # Advanced Table Widget for Flutter 🚀📊
 
 [![pub.dev](https://img.shields.io/pub/v/your_package_name.svg)](https://pub.dev/packages/your_package_name) <!-- Replace your_package_name -->
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-24292e.svg?style=flat&logo=github)](https://github.com/nimr77/flutter_advanced_table)
+
 
 Tired of boring, basic tables in your Flutter apps?  Want something that *sparkles* ✨, *sizzles* 🔥, and makes your data sing 🎤?  Well, buckle up, buttercup, because the **Advanced Table Widget** is here to revolutionize your data presentation!
 
@@ -20,6 +22,9 @@ This isn't your grandma's table (unless your grandma is a seriously cool Flutter
 *   **Lazy Loading? Of course!** 🦥:  Implement lazy loading for large datasets, like a coding ninja.
 *   **Animations?! YES!!!** 💫: Use the `rowBuilder` to add any animation you want.
 * **Fully Customizable**: we added builders everywhere, if you want to change something you can 🛠️
+
+![Demo](https://github.com/nimr77/flutter_advanced_table/blob/main/assets/VIDEO.gif)
+
 
 ## Getting Started
 

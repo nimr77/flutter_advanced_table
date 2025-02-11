@@ -1,7 +1,13 @@
 name: flutter_advanced_table
 description: "Effortlessly build beautiful, interactive, and feature-rich data tables in Flutter."
+repository: https://github.com/nimr77/flutter_advanced_table
+issue_tracker: https://github.com/nimr77/flutter_advanced_table
+homepage: https://github.com/nimr77/flutter_advanced_table
+documentation: https://github.com/nimr77/flutter_advanced_table
+topics: [table, ui]
+
+
 version: 1.0.0
-homepage:
 
 environment:
   sdk: ^3.6.1
@@ -18,3 +24,8 @@ dev_dependencies:
 
 flutter:
 
+
+
+screenshots:
+  - description: The package logo.
+    path: assets/Screenshot 2025-02-11 at 23.24.56.png
