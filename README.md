@@ -1,6 +1,6 @@
 # Advanced Table Widget for Flutter 🚀📊
 
-[![pub.dev](https://img.shields.io/pub/v/your_package_name.svg)](https://pub.dev/packages/your_package_name) <!-- Replace your_package_name -->
+[![pub.dev](https://img.shields.io/pub/v/your_package_name.svg)](https://pub.dev/packages/flutter_advanced_table) <!-- Replace your_package_name -->
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-24292e.svg?style=flat&logo=github)](https://github.com/nimr77/flutter_advanced_table)
 
 
