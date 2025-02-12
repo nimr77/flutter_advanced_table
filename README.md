@@ -22,8 +22,9 @@ This isn't your grandma's table (unless your grandma is a seriously cool Flutter
 *   **Lazy Loading? Of course!** 🦥:  Implement lazy loading for large datasets, like a coding ninja.
 *   **Animations?! YES!!!** 💫: Use the `rowBuilder` to add any animation you want.
 * **Fully Customizable**: we added builders everywhere, if you want to change something you can 🛠️
-
-![Demo](https://github.com/nimr77/flutter_advanced_table/blob/main/assets/VIDEO.gif?raw=true)
+* **Sliver Support** 📜: Seamlessly integrate with scrollable layouts using sliver support for better performance and flexibility!!
+ 
+[Demo](https://github.com/nimr77/flutter_advanced_table/blob/main/assets/VIDEO.gif?raw=true)
 
 
 ## Getting Started

@@ -1,3 +1,6 @@
+## 1.1.0
+* **Updated:**  Adding Slivers
+
 ## 1.0.4
 * **Updated:**  Updated the package description.
 
