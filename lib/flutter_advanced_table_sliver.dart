@@ -145,7 +145,7 @@ class AdvancedTableSliver extends StatelessWidget {
           return SliverMainAxisGroup(
             slivers: [
               if (isLoading)
-                SliverToBoxAdapter(child: fullLoadingPlaceHolder)
+                SliverFillRemaining(child: fullLoadingPlaceHolder)
               else ...[
                 SliverLayoutBuilder(builder: (context, constraints) {
                   final actionsLength = (actions?.length ?? 0);

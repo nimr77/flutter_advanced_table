@@ -7,7 +7,7 @@ documentation: https://github.com/nimr77/flutter_advanced_table
 topics: [table, ui]
 
 
-version: 1.1.0
+version: 1.1.1
 
 environment:
   sdk: ^3.6.1
