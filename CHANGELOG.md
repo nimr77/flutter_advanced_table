@@ -1,3 +1,6 @@
+## 1.1.2
+* **Updated:**  Adding Slivers
+
 ## 1.1.1
 * **Updated:**  Adding Slivers
   
