@@ -195,17 +195,17 @@ class AdvancedTableSliver extends StatelessWidget {
                     final columnWidth =
                         maxWidth / ((headerItems.length + 1) + actionsLength);
 
-                    return SliverPadding(
-                      padding: outterRowsPadding ?? EdgeInsets.zero,
-                      sliver: SliverList.builder(
-                        itemBuilder: (context, index) {
-                          final hoverState = ValueNotifier(false);
-                          final rowElements = rowElementsBuilder(
-                              context,
-                              RowBuilderParams(
-                                  index: index, defualtWidth: columnWidth));
+                    return SliverList.builder(
+                      itemBuilder: (context, index) {
+                        final hoverState = ValueNotifier(false);
+                        final rowElements = rowElementsBuilder(
+                            context,
+                            RowBuilderParams(
+                                index: index, defualtWidth: columnWidth));
 
-                          return ValueListenableBuilder(
+                        return Padding(
+                          padding: outterRowsPadding ?? EdgeInsets.zero,
+                          child: ValueListenableBuilder(
                               valueListenable: hoverState,
                               builder: (context, isHover, _) {
                                 final widget = ValueListenableBuilder(
@@ -275,10 +275,10 @@ class AdvancedTableSliver extends StatelessWidget {
                                 return rowBuilder?.call(
                                         context, index, widget, isHover) ??
                                     widget;
-                              });
-                        },
-                        itemCount: items.length,
-                      ),
+                              }),
+                        );
+                      },
+                      itemCount: items.length,
                     );
                   }),
               ],
