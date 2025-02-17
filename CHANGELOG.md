@@ -1,3 +1,7 @@
+
+## 1.1.5
+* **Updated:**  Easier Doc
+
 ## 1.1.4
 * **Updated:**  Fix readme
 

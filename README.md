@@ -43,8 +43,39 @@ This isn't your grandma's table (unless your grandma is a seriously cool Flutter
 
 3.  **Start building awesome tables!**
 
-
 ## Usage
+
+### Constructor Arguments
+
+Here's a detailed explanation of all the constructor arguments for `AdvancedTableWidget`:
+
+* `headerBuilder`: (required) Function to build custom header widgets for each column
+* `rowElementsBuilder`: (required) Function to build the cells within each row
+* `items`: (required) Your data list - each item becomes a row
+* `isLoadingAll`: (required) ValueNotifier to control full table loading state
+* `headerItems`: (required) List of items to be displayed in the header
+* `fullLoadingPlaceHolder`: (required) Widget shown during full table loading
+
+Optional arguments:
+* `actions`: List of actions for each row (used for width calculations)
+* `actionBuilder`: Function to build action buttons for each row
+* `isLoadingMore`: ValueNotifier for pagination loading state
+* `onEmptyState`: Widget to show when table has no data
+* `headerDecoration`: BoxDecoration for the header row
+* `innerHeaderPadding`: Padding inside header cells
+* `elementsPadding`: Padding around table content
+* `loadingMorePlaceHolder`: Widget shown during pagination loading
+* `rowElementsDecoration`: BoxDecoration for data rows
+* `innerRowElementsPadding`: Padding inside row cells
+* `headerTextStyle`: TextStyle for header text
+* `outterRowsPadding`: Padding around all rows
+* `rowDecorationBuilder`: Function to build dynamic row decorations
+* `outterHeaderPadding`: Padding around header row
+* `addSpacerToActions`: Add space before action buttons (default: true)
+* `onRowTap`: Callback function when row is tapped
+* `rowBuilder`: Custom row builder for animations/effects
+
+## Full Example
 
 Here's a taste of what you can do:
 
